@@ -7,7 +7,7 @@
     "type": "information",
     "license": "Copyright (c) 2019-2023 DomainTools, LLC",
     "main_module": "domaintools_iris_connector.py",
-    "app_version": "1.4.1-fdse",
+    "app_version": "1.4.1-fdsev2",
     "utctime_updated": "2023-07-14T15:44:30.000000Z",
     "product_vendor": "DomainTools",
     "product_name": "DomainTools Iris Investigate",
@@ -2044,6 +2044,10 @@
     "pip39_dependencies": {
         "wheel": [
             {
+                "module": "chardet",
+                "input_file": "wheels/chardet-5.2.0-py3-none-any.whl"
+            },
+            {
                 "module": "regex",
                 "input_file": "wheels/regex-2023.8.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
             },
@@ -2125,7 +2129,7 @@
             },
             {
                 "module": "urllib3",
-                "input_file": "wheels/urllib3-2.0.0-py3-none-any.whl"
+                "input_file": "wheels/urllib3-1.26.16-py2.py3-none-any.whl"
             }
         ]
     }
