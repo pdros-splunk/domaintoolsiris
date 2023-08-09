@@ -7,7 +7,7 @@
     "type": "information",
     "license": "Copyright (c) 2019-2023 DomainTools, LLC",
     "main_module": "domaintools_iris_connector.py",
-    "app_version": "1.4.1-test1",
+    "app_version": "1.4.1-fdse",
     "utctime_updated": "2023-07-14T15:44:30.000000Z",
     "product_vendor": "DomainTools",
     "product_name": "DomainTools Iris Investigate",
@@ -2042,12 +2042,11 @@
         }
     ],
     "pip39_dependencies": {
-        "pypi": [
-            {
-                "module": "regex"
-            }
-        ],
         "wheel": [
+            {
+                "module": "regex",
+                "input_file": "wheels/regex-2023.8.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+            },
             {
                 "module": "anyio",
                 "input_file": "wheels/anyio-3.7.1-py3-none-any.whl"
